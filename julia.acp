@@ -1,0 +1,356 @@
+#TITLE=Julia
+; EditPlus Auto-completion file written by Jaewoo Joung for Julia version 1.6.3
+; This file is required for EditPlus to run correctly.
+
+#CASE=y
+#BOL=y
+
+#T=dateformat
+dateformat"202^!-m-d H:M:S" 
+
+#T=function
+function ^!() 
+	
+end
+#T=^if
+if ^!
+	
+end
+#T=elsif
+elsif ^!
+	
+#T=else
+else
+	^!
+#T=while
+while ^!
+	
+end
+#T=for
+for ^! in 
+	
+end
+#T=begin
+begin
+	^! 
+	
+end
+
+#T={
+{^!}
+
+#T=@v"
+@v"^!"
+#T=@int128"
+@int128"^!"
+#T=@uint128"
+@uint128"^!"
+#T=@big"
+@big"^!"
+#T=@r"
+@r"^!"
+#T=@s"
+@s"^!"
+#T=@raw"
+@raw"^!"
+#T=@b"
+@b"^!"
+#T=@html"
+@html"^!"
+#T=@text"
+@text"^!"
+#T=@MIME"
+@MIME"^!"
+#T=@artifact"
+@artifact"^!"
+#T=@dateformat"
+@dateformat"^!"
+#T=@githash"
+@githash"^!"
+#T=@ip"
+@ip"^!"
+
+#T=isa
+isa(x, type) -> Bool^!
+#T=objectid
+objectid(x) -> UInt^!
+#T=names
+names(x::Module; all::Bool = false, imported::Bool ^!
+#T=nfields
+nfields(x) -> Int^!
+#T=all!
+all!(r, A)^!
+#T=tail
+tail(x::Tuple)::Tuple^!
+#T=delete!
+delete!(collection, key)^!
+#T=issetequal
+issetequal(a, b) -> Bool^!
+#T=isdisjoint
+isdisjoint(v1, v2) -> Bool^!
+#T=muladd
+muladd(x, y, z)^!
+#T=fld
+fld(x, y)^!
+#T=cld
+cld(x, y)^!
+#T=unsafe_trunc
+unsafe_trunc(T, x)^!
+#T=min
+min(x, y, `)^!
+#T=max
+max(x, y, `)^!
+#T=copysign
+copysign(x, y) -> z^!
+#T=isqrt
+isqrt(n::Integer)^!
+#T=cis
+cis(z)^!
+#T=factorial
+factorial(n::Integer)^!
+#T=issubnormal
+issubnormal(f) -> Bool^!
+#T=isfinite
+isfinite(f) -> Bool^!
+#T=isinf
+isinf(f) -> Bool^!
+#T=isreal
+isreal(x) -> Bool^!
+#T=uppercase
+uppercase(s::AbstractString)^!
+#T=lowercase
+lowercase(s::AbstractString)^!
+#T=selectdim
+selectdim(A, d::Integer, i)^!
+#T=dropdims
+dropdims(A; dims) Remove the dimensions ^!
+#T=isperm
+isperm(v) -> Bool^!
+#T=reverse!
+reverse!(v [, start=1 [, stop=length(v) ]]) -> v^!
+#T=istaskstarted
+istaskstarted(t::Task) -> Bool^!
+#T=istaskfailed
+istaskfailed(t::Task) -> Bool^!
+#T=pwd
+pwd() -> AbstractString^!
+#T=ctime
+ctime(file)^!
+#T=mtime
+mtime(file)^!
+#T=filemode
+filemode(file)^!
+#T=filesize
+filesize(path`)^!
+#T=homedir
+homedir() -> String^!
+#T=close
+close(stream)^!
+#T=seek
+seek(s, pos)^!
+#T=seekstart
+seekstart(s)^!
+#T=seekend
+seekend(s)^!
+#T=skip
+skip(s, offset)^!
+#T=eof
+eof(stream) -> Bool^!
+#T=microsecond
+microsecond(t::Time) -> Int64^!
+#T=nanosecond
+nanosecond(t::Time) -> Int64^!
+#T=daysinyear
+daysinyear(dt::TimeType) -> Int^!
+#T=quarterofyear
+quarterofyear(dt::TimeType) -> Int^!
+#T=dayofquarter
+dayofquarter(dt::TimeType) -> Int^!
+#T=firstdayofweek
+firstdayofweek(dt::TimeType) -> TimeType^!
+#T=firstdayofmonth
+firstdayofmonth(dt::TimeType) -> TimeType^!
+#T=lastdayofmonth
+lastdayofmonth(dt::TimeType) -> TimeType^!
+#T=firstdayofyear
+firstdayofyear(dt::TimeType) -> TimeType^!
+#T=lastdayofyear
+lastdayofyear(dt::TimeType) -> TimeType^!
+#T=today
+today() -> Date^!
+#T=copy!
+copy!(dst, src) -> dst^!
+#T=tril
+tril(M)^!
+#T=diag
+diag(M, k::Integer=0)^!
+#T=kron!
+kron!(C, A, B)^!
+#T=ishermitian
+ishermitian(A) -> Bool^!
+#T=asum
+asum(n, X, incx)^!
+#T=scal
+scal(n, a, X, incx)^!
+#T=syrk!
+syrk!(uplo, trans, alpha, ^!
+#T=syrk
+syrk(uplo, trans, alpha, A)^!
+#T=syr2k
+syr2k(uplo, trans, alpha, A, B)^!
+#T=gbmv
+gbmv(trans, m, kl, ku, alpha, A, x)^!
+#T=sbmv!
+sbmv!(uplo, k, alpha, A, x, beta, y)^!
+#T=gemm!
+gemm!(tA, tB, alpha, A, B, beta, C)^!
+#T=gemv!
+gemv!(tA, alpha, A, x, beta, y)^!
+#T=symm!
+symm!(side, ul, alpha, A, B, beta, C)^!
+#T=symv!
+symv!(ul, alpha, A, x, beta, y)^!
+#T=hemm!
+hemm!(side, ul, alpha, A, B, beta, C)^!
+#T=hemv!
+hemv!(ul, alpha, A, x, beta, y)^!
+#T=trmm!
+trmm!(side, ul, tA, dA, alpha, A, B)^!
+#T=trmm
+trmm(side, ul, tA, dA, alpha, A, B)^!
+#T=trsm!
+trsm!(side, ul, tA, dA, alpha, A, B)^!
+#T=trsm
+trsm(side, ul, tA, dA, alpha, A, B)^!
+#T=gbtrf!
+gbtrf!(kl, ku, m, AB) -> (AB, ipiv)^!
+#T=gbtrs!
+gbtrs!(trans, kl, ku, m, AB, ipiv, ^!
+#T=gebal!
+gebal!(job, A) -> (ilo, ihi, scale)^!
+#T=gebak!
+gebak!(job, side, ilo, ihi, scale, ^!
+#T=gebrd!
+gebrd!(A) -> (A, d, e, tauq, taup)^!
+#T=geqp3!
+geqp3!(A, [jpvt, tau]) -> (A, tau, ^!
+#T=gels!
+gels!(trans, A, B) -> (F, B, ssr)^!
+#T=gelsd!
+gelsd!(A, B, rcond) -> (B, rnk)^!
+#T=gelsy!
+gelsy!(A, B, rcond) -> (B, rnk)^!
+#T=geev!
+geev!(jobvl, jobvr, A) -> (W, VL, ^!
+#T=gesvd!
+gesvd!(jobu, jobvt, A) -> (U, S, ^!
+#T=gttrs!
+gttrs!(trans, dl, d, du, du2, ipiv, B)^!
+#T=trevc!
+trevc!(side, howmny, select, T, VL ^!
+#T=stev!
+stev!(job, dv, ev) -> (dv, Zmat)^!
+#T=syconv!
+syconv!(uplo, A, ipiv) -> (A, work)^!
+#T=sysv!
+sysv!(uplo, A, B) -> (B, A, ipiv)^!
+#T=sytrf!
+sytrf!(uplo, A) -> (A, ipiv, info)^!
+#T=hesv!
+hesv!(uplo, A, B) -> (B, A, ipiv)^!
+#T=hetrf!
+hetrf!(uplo, A) -> (A, ipiv, info)^!
+#T=gehrd!
+gehrd!(ilo, ihi, A) -> (A, tau)^!
+#T=retrieve
+retrieve() -> data, lidict^!
+#T=getipaddr
+getipaddr() -> IPAddr^!
+#T=islinklocaladdr
+islinklocaladdr(addr::IPAddr)^!
+#T=sparsevec
+sparsevec(I, V, [m, combine])^!
+#T=isimmutable
+isimmutable(v) -> Bool Warning^!
+#T=sum
+sum(f, itr; [init])^!
+#T=front
+front(x::Tuple)::Tuple^!
+#T=fma
+fma(x, y, z) Computes x*y+z without rounding the ^!
+#T=isnan
+isnan(f) -> Bool^!
+#T=split
+split(str::AbstractString, dlm; limit::Integer=0, keepempty::Bool=true)^!
+#T=ispunct
+ispunct(c::AbstractChar) -> Bool^!
+#T=reset
+reset(s)^!
+#T=lastdayofweek
+lastdayofweek(dt::TimeType) -> TimeType^!
+#T=schur!
+schur!(A::StridedMatrix) -> F::Schur^!
+#T=isdiag
+isdiag(A) -> Bool^!
+#T=transpose
+transpose(A)^!
+#T=setopt
+setopt(sock::UDPSocket; multicast_loop=nothing, multicast_ttl=nothing, enable_broadcast=nothing, ttl=nothing)^!
+
+#T=reduce
+reduce(op, itr; [init])^!
+#T=any
+any(itr) -> Bool^!
+#T=any
+any(p, itr) -> Bool^!
+#T=all
+all(itr) -> Bool^!
+#T=all
+all(p, itr) -> Bool^!
+#T=any
+any(p, itr) -> Bool^!
+#T=all
+all(p, itr) -> Bool^!
+#T=collect
+collect(collection) Return an Array of all items in ^!
+#T=asinh
+asinh(x)^!
+#T=acosh
+acosh(x)^!
+#T=atanh
+atanh(x)^!
+#T=complex
+complex(r, [i]) Convert real numbers or arrays to ^!
+#T=BitArray
+BitArray(itr)^!
+#T=axes
+axes(A, d)^!
+#T=findnext
+findnext(A, i)^!
+#T=findnext
+findnext(predicate::Function, A, i)^!
+#T=put!
+put!(c::Channel, v)^!
+#T=cd
+cd(dir::AbstractString=homedir())^!
+#T=now
+now() -> DateTime^!
+#T=isready
+isready(rr::Future) Determine whether a Future has ^!
+#T=sbmv
+sbmv(uplo, k, alpha, A, x)^!
+#T=gemv
+gemv(tA, A, x)^!
+#T=symm
+symm(side, ul, alpha, A, B)^!
+#T=hemm
+hemm(side, ul, alpha, A, B)^!
+
+#T=AbstractVector
+AbstractVector{^!T}
+#T=AbstractMatrix
+AbstractMatrix{^!T}
+#T=ReverseOrdering
+ReverseOrdering(^!fwd::Ordering=Forward)
+
+#
